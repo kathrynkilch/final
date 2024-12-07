@@ -1,0 +1,126 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+.custom-margin {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+body {
+    background-color: #E6E6FA;
+}
+
+.nav-link {
+  background-color: #D8BFD8; /* Light purple background */
+  color: white; /* White text */
+  border-radius: 5px; /* Optional: rounded corners */
+  padding: 10px 15px; /* Optional: padding to make the buttons more noticeable */
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: #BA55D3; /* Slightly darker purple for hover effect */
+  color: white; /* Ensure text remains visible */
+}
+
+.nav-link.active {
+  background-color: #BA55D3 !important; /* Dark purple */
+  color: white !important; /* White text */
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-pills .nav-item {
+    margin: 0 10px; /* Adjust the horizontal spacing as needed */
+}
+
+.nav-pills .nav-item {
+    margin-right: 80px; /* Adds spacing between the nav pills */
+}
+
+/* Change the navbar background color to light purple */
+.navbar {
+    background-color: #E6E6FA !important;  /* Light purple color */
+}
+
+.menu-section {
+    text-align: center; /* Align all text in the menu section to the center */
+}
+
+#menu-section {
+    text-align: center;
+}
+
+#menu-section ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+#menu-section h2 {
+    color: black; /* Sets the text color to black */
+}
+
+#contact-section {
+    text-align: center;
+}
+
+.bi-instagram {
+     color: lightpink;
+     font-size: 70px;
+}
+
+.bi-facebook {
+    color: lightpink;
+    font-size: 70px;
+}
+
+.bi-youtube {
+    color: lightpink;
+    font-size: 70px;
+}
+
+.btn-primary {
+    background-color: lightpink; /* Light pink */
+    border-color: #FFC0CB; /* Matches the background */
+    color: white; /* Text color */
+}
+
+.btn-primary:hover {
+    background-color: #FF69B4; /* Darker pink on hover */
+    border-color: #FF69B4; /* Matches the darker pink */
+    color: white; /* Ensures the text remains visible */
+}
+
+
+a {
+    color: #FFC0CB; /* Light pink */
+    text-decoration: none; /* Optional: Removes underlines for links */
+}
+
+a:hover {
+    color: #FFB6C1; /* Slightly lighter pink for hover state */
+}
+
+#carouselExample {
+    max-width: 80%; /* Adjust the carousel width to 80% of the page */
+    margin: 0 auto; /* Center the carousel on the page */
+}
+
+#carouselExample .carousel-inner {
+    height: auto; /* Adjust the height of the carousel */
+}
+
+#carouselExample .carousel-item img {
+    max-width: 100%; /* Prevent images from exceeding the container width */
+    max-height: 400px; /* Limit the height to prevent full-page usage */
+    object-fit: contain; /* Ensure the full image is visible within the container */
+    display: block; /* Fix centering issues */
+    margin: 0 auto; /* Center the images */
+}
+
+
+
+
+
